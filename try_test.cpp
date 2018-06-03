@@ -4,14 +4,7 @@ using namespace std;
 float ok(int a,int b)
 {
 	float c;
-	try
-	{
-		c= a / b;
-	}
-	catch (exception e)
-	{
-		cout << "exception" << endl;
-	}
+	
     cout << "a" << endl;
 	return c;
 }
