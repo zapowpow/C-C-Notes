@@ -1,7 +1,9 @@
-//#include "stdio.h"
+#include "stdio.h"
 
 int main()
 {
-    printf("ok");
+    int a;
+    scanf("%d", &a);
+    printf("ok%d", a);
     return 0;
 }
